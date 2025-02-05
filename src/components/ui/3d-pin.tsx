@@ -79,7 +79,7 @@ export const PinPerspective = ({
           <a
             href={href}
             target={"_blank"}
-            className="relative flex space-x-2 items-center z-10  bg-zinc-950 py-0.5 px-4  "
+            className="relative flex space-x-2 items-center z-10  py-0.5 px-4  "
           >
             <span className="relative z-20 text-white text-xs font-saira inline-block py-0.5">
               {title}
@@ -161,8 +161,8 @@ export const PinPerspective = ({
         </div>
 
         <>
-          <motion.div className="absolute right-[50.5%] bottom-[66.5%] bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-40 blur-[2px]" />
-          <motion.div className="absolute right-[50.5%] bottom-[66.5%] bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-40  " />
+          <motion.div className="absolute right-[50.5%] bottom-[66.5%] bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-20 blur-[2px]" />
+          <motion.div className="absolute right-[50.5%] bottom-[66.5%] bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-20  " />
           <motion.div className="absolute right-[50.5%] translate-x-[1.5px] bottom-[66.5%] bg-cyan-600 translate-y-[14px] w-[4px] h-[4px] rounded-full z-40 blur-[3px]" />
           <motion.div className="absolute right-[50.5%] translate-x-[0.5px] bottom-[66.5%] bg-cyan-300 translate-y-[14px] w-[2px] h-[2px] rounded-full z-40 " />
         </>

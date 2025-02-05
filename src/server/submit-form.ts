@@ -1,28 +1,27 @@
 'use server';
 import { z } from 'zod';
-import fs from 'fs/promises';
-import path from 'path';
+import { drizzle } from 'drizzle-orm/node-postgres';
+import { sql } from 'drizzle-orm';
 
-const jsonFilePath = path.join(process.cwd(), 'src/data/email.json');
+const db = drizzle(process.env.POSTGRES_URI);
+ 
 
 export async function emailSubmit(_data: { email: string }) {
-  
+    try {
     const result = z.object({ email: z.string().email() }).safeParse(_data);
 
     if (result.success) {
         const { email } = result.data;
 
-        const fileContent = await fs.readFile(jsonFilePath, 'utf-8');
-        const jsonFile = JSON.parse(fileContent);
-
-        if (!jsonFile.emailList.includes(email)) {
-            jsonFile.emailList.push(email);
-
-            await fs.writeFile(jsonFilePath, JSON.stringify(jsonFile, null, 2));
-        }
+        await db.execute(sql`INSERT INTO newsletter_subscriber(email) VALUES (${email})`)
 
         return { success: true, message: 'Email added successfully!' };
     } else {
         return { success: false, message: 'Invalid email format.' };
     }
+} catch (e) {
+    console.log(e)
+    return {success: false, message: 'Something went wrong'}
+}
+
 }

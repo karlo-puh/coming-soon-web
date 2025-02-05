@@ -56,7 +56,7 @@ return (
           </FormItem>
         )}
       />
-            <Button disabled={form.formState.isSubmitting || form.formState.isSubmitSuccessful} className="w-full" variant={'secondary'} type="submit">Stay Updated</Button>
+            <Button disabled={form.formState.isSubmitting || form.formState.isSubmitSuccessful} className="w-full hover:bg-[#dc2626c7] focus:bg-[#dc2626c7] bg-[#dc2626ae]" variant={'secondary'} type="submit">Stay Updated</Button>
     </form>
   </Form>
   </motion.div>) : 
