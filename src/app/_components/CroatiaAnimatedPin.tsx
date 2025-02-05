@@ -20,7 +20,7 @@ export function CroatiaAnimatedPin() {
   return (
     <div className="h-[25rem] sm:h-[35rem] w-full flex items-center justify-center ">
       <PinContainer
-        title="Opening March 2025 in Varaždin, Croatia."
+        title="Opening May 2025 in Varaždin, Croatia."
         href="https://twitter.com/mannupaaji"
         className="border-none"
         isRotated={isRotated}
