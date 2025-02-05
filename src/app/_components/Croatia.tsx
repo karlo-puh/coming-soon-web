@@ -17,7 +17,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -29,7 +29,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -40,7 +40,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -52,7 +52,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -75,7 +75,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -87,7 +87,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -99,7 +99,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -111,7 +111,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -123,7 +123,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -135,7 +135,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -147,7 +147,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -159,7 +159,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -171,7 +171,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -183,7 +183,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -195,7 +195,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -207,7 +207,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -219,7 +219,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -231,7 +231,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -243,7 +243,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}
@@ -255,7 +255,7 @@ export const Croatia = (props: React.HTMLAttributes<HTMLOrSVGElement> & {isrotat
       className="[object SVGAnimatedString] mapsvg-region"
       strokeWidth={1}
       style={{
-        fill: "rgb(151, 144, 238)",
+        fill: "rgb(255, 255, 255, 0.5)",
         stroke: "rgb(255, 255, 255)",
         strokeWidth: "0.8851px"
       }}

@@ -40,7 +40,7 @@ export const PinContainer = ({
           style={{
             transform: isRotated == false ? "translate(-50%,-50%) rotateX(0deg) scale(1)" : "translate(-50%,-50%) rotateX(40deg) scale(0.8)",
           }}
-          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black border border-none transition duration-1000 "
+          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black/70 border border-none transition duration-1000 "
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>
