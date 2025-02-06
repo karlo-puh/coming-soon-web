@@ -3,7 +3,7 @@ import {  Inter, Montserrat, Saira } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 const saira = Saira({
@@ -71,6 +71,7 @@ export default function RootLayout({
 			className={cn(inter.className, saira.variable, montserrat.variable, 'dark')}
       >
         {children}
+        <SpeedInsights/>
       </body>
     </html>
   );
