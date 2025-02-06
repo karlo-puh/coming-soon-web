@@ -1,4 +1,8 @@
-import type { Config } from "tailwindcss";
+import plugin from 'tailwindcss/plugin';
+import animate from 'tailwindcss-animate';
+import type { Config } from 'tailwindcss';
+
+const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette');
 
 export default {
     darkMode: ["class"],
@@ -56,12 +60,43 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
+		keyframes: {
+			aurora: {
+				from: {
+					backgroundPosition: '50% 50%, 50% 50%',
+				},
+				to: {
+					backgroundPosition: '350% 50%, 350% 50%',
+				},
+			},	
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  animation: {
+			  aurora: 'aurora 60s linear infinite',
+			  'accordion-down': 'accordion-down 0.2s ease-out',
+			  'accordion-up': 'accordion-up 0.2s ease-out',
+		  },
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+	addVariablesForColors,
+	plugin(function ({ addVariant }) {
+		addVariant('hocus', ['&:hover', '&:focus']);
+	}),
+	
+	animate,
+  ],
 } satisfies Config;
+
+function addVariablesForColors({ addBase, theme }: any) {
+	const allColors = flattenColorPalette(theme('colors'));
+	const newVars = Object.fromEntries(Object.entries(allColors).map(([key, val]) => [`--${key}`, val]));
+
+	addBase({
+		':root': newVars,
+	});
+}
