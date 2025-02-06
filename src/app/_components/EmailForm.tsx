@@ -9,6 +9,7 @@ import { z} from 'zod'
 import { useForm } from "react-hook-form";
 import { emailSubmit } from "@/server/submit-form";
 import { motion, AnimatePresence } from 'framer-motion';
+import { ImSpinner2 } from "react-icons/im";
 
 const formSchema = z.object({
   email: z.string().email()
@@ -56,7 +57,8 @@ return (
           </FormItem>
         )}
       />
-            <Button disabled={form.formState.isSubmitting || form.formState.isSubmitSuccessful} className="w-full hover:bg-[#dc2626c7] focus:bg-[#dc2626c7] bg-[#dc2626ae]" variant={'secondary'} type="submit">Stay Updated</Button>
+            <Button disabled={form.formState.isSubmitting || form.formState.isSubmitSuccessful} className="w-full hover:bg-[#dc2626c7] focus:bg-[#dc2626c7] bg-[#dc2626ae]" variant={'secondary'} type="submit">{form.formState.isSubmitting ? (
+			<>Submitting <ImSpinner2 className=" ml-2inline-block size-4 animate-spin transition-all " color="white" /></>)  : 'Stay Updated'}</Button>
     </form>
   </Form>
   </motion.div>) : 
