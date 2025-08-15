@@ -32,7 +32,7 @@ export function CroatiaAnimatedPin() {
           <div className="text-base !m-0 !p-0 font-normal">
            <Croatia className="w-full h-full" isrotated={isRotated.toString()}/>
           </div>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+          <div className="flex flex-1 w-full rounded-lg mt-4 a bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
         </div>
       </PinContainer>
     </div>
