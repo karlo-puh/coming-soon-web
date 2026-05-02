@@ -81,11 +81,11 @@ export const PinPerspective = ({
             target={"_blank"}
             className="relative flex space-x-2 items-center z-10  py-0.5 px-4  "
           >
-            <span className="relative z-20 text-white text-xs font-saira inline-block py-0.5">
+            <span className="relative z-20 text-white/60 text-xs font-saira inline-block py-0.5">
               {title}
             </span>
 
-            <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-red-500/0 via-red-500/90 to-red-500/0 transition-opacity duration-1000 group-hover/btn:opacity-40"></span>
+            <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-red-500/0 via-red-500/45 to-red-500/0 transition-opacity duration-1000 group-hover/btn:opacity-40"></span>
           </a>
         </div>
 

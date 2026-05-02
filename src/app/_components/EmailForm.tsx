@@ -49,16 +49,16 @@ return (
         name="email"
         render={({ field }) => (
           <FormItem className="w-full">
-          <Label htmlFor="email" className="opacity-70 font-saira ">Subscribe for launch updates</Label>
+          <Label htmlFor="email" className="opacity-70 font-saira ">Want to receive updates?</Label>
             <FormControl>
-            <Input id="email" placeholder="you@example.com" type="email" autoComplete="email" className="w-full" {...field}  />
+            <Input id="email" placeholder="Enter your email..." type="email" autoComplete="email" className="w-full placeholder:text-foreground/35" {...field}  />
             </FormControl>
             <FormMessage />
           </FormItem>
         )}
       />
             <Button disabled={form.formState.isSubmitting || form.formState.isSubmitSuccessful} className="w-full hover:bg-[#dc2626c7] focus:bg-[#dc2626c7] bg-[#dc2626ae]" variant={'secondary'} type="submit">{form.formState.isSubmitting ? (
-			<>Subscribing <ImSpinner2 className="ml-2 inline-block size-4 animate-spin transition-all " color="white" /></>)  : 'Subscribe to Newsletter'}</Button>
+			<>Subscribing <ImSpinner2 className="ml-2 inline-block size-4 animate-spin transition-all " color="white" /></>)  : 'Subscribe'}</Button>
     </form>
   </Form>
   </motion.div>) : 
