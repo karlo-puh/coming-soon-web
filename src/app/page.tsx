@@ -12,7 +12,11 @@ export default async function Home() {
         <Logo className="h-[32px] w-[240px] sm:h-[40px] sm:w-[300px]"/>
        
   
-    <h1 className="mt-4 text-2xl sm:text-4xl uppercase font-saira font-bold max-w-[20em] text-center text-pretty">Unleashing Croatia&apos;s Ultimate Sim Racing Destination</h1>
+    <div className="mt-4 flex flex-col items-center gap-3 text-center">
+      <h1 className="text-2xl sm:text-4xl uppercase font-saira font-bold max-w-[20em] text-pretty">
+        Croatia&apos;s First Professional Sim Racing Arena
+      </h1>
+    </div>
 
     <CroatiaAnimatedPin/>
         <EmailForm />

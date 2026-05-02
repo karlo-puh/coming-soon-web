@@ -20,8 +20,8 @@ export function CroatiaAnimatedPin() {
   return (
     <div className="h-[25rem] sm:h-[35rem] w-full flex items-center justify-center ">
       <PinContainer
-        title="Opening this winter in Croatia."
-        href="https://twitter.com/mannupaaji"
+        title="Opening September 2026"
+        href="https://pitstop-arena.hr"
         className="border-none"
         isRotated={isRotated}
       >
@@ -32,7 +32,11 @@ export function CroatiaAnimatedPin() {
           <div className="text-base !m-0 !p-0 font-normal">
            <Croatia className="w-full h-full" isrotated={isRotated.toString()}/>
           </div>
-          <div className="flex flex-1 w-full rounded-lg mt-4 a bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+          <div className="mt-4 flex flex-1 w-full items-center justify-center rounded-lg border border-red-500/20 bg-gradient-to-br from-red-950/50 via-red-600/15 to-neutral-950 px-4 py-3">
+            <p className="font-saira text-xs font-semibold uppercase tracking-[0.2em] text-red-200">
+              Opening September 2026
+            </p>
+          </div>
         </div>
       </PinContainer>
     </div>

@@ -49,16 +49,16 @@ return (
         name="email"
         render={({ field }) => (
           <FormItem className="w-full">
-          <Label htmlFor="email" className="opacity-70 font-saira ">Ready to take the wheel?</Label>
+          <Label htmlFor="email" className="opacity-70 font-saira ">Subscribe for launch updates</Label>
             <FormControl>
-            <Input id="email" placeholder="yourname@pitstop-arena.com" type="email" className="w-full" {...field}  />
+            <Input id="email" placeholder="you@example.com" type="email" autoComplete="email" className="w-full" {...field}  />
             </FormControl>
             <FormMessage />
           </FormItem>
         )}
       />
             <Button disabled={form.formState.isSubmitting || form.formState.isSubmitSuccessful} className="w-full hover:bg-[#dc2626c7] focus:bg-[#dc2626c7] bg-[#dc2626ae]" variant={'secondary'} type="submit">{form.formState.isSubmitting ? (
-			<>Submitting <ImSpinner2 className=" ml-2inline-block size-4 animate-spin transition-all " color="white" /></>)  : 'Stay Updated'}</Button>
+			<>Subscribing <ImSpinner2 className="ml-2 inline-block size-4 animate-spin transition-all " color="white" /></>)  : 'Subscribe to Newsletter'}</Button>
     </form>
   </Form>
   </motion.div>) : 
@@ -70,8 +70,8 @@ return (
           transition={{ duration: 0.5 }}
           className="p-6 rounded-2xl shadow-lg w-full text-center"
           >
-            <h2 className="text-lg font-medium text-green-400/50 mb-2">Email Submitted</h2>
-            <p className="text-xl text-saira  font-bold">See you on the track!</p>
+            <h2 className="text-lg font-medium text-green-400/50 mb-2">You&apos;re subscribed</h2>
+            <p className="text-xl text-saira  font-bold">We&apos;ll send launch news to your inbox.</p>
           </motion.div>
         )}
       </AnimatePresence>
